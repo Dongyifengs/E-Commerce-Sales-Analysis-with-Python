@@ -1,42 +1,43 @@
-## E-commerce Supply Chain Analysis
+## 电子商务供应链分析
 
-We have a dataset from an E-commerce company selling variety of products of product type namely: skincare, haircare and cosmetics.
+我们有一个来自电子商务公司的数据集，该公司销售各种产品类型，包括：护肤品、护发品和化妆品。
 
-By using python and its libraries, dataset is being analysed to look for any trend or relation in the sale of the products.
+通过使用 Python 及其库，我们对数据集进行分析，以寻找产品销售中的任何趋势或关系。
 
-As an analyst we want to explore the data and answer the following questions using the past data:
+作为分析师，我们希望探索数据并使用历史数据回答以下问题：
 
-- What is the revenue generated vs price of the product?
-- Which product type has the highest sale?  
-- what is total revenue generated from shipping carrier?
-- what is the shipping cast according to carrier?
-- What is the defect rate per product type?
+- 产品价格与产生的收入之间的关系是什么？
+- 哪种产品类型的销售额最高？
+- 各个运输承运商产生的总收入是多少？
+- 各个承运商的运输成本是多少？
+- 每种产品类型的缺陷率是多少？
 
-## Data
+## 数据
 
-- ***Product data:*** Product type, SKU, Price, manufacturing costs, defect rate, etc.
-- ***Customer data:***  customer demographics, order quantities,  etc.
-- ***Carrier data:***  Transportation routes, modes, costs etc.
-- ***Sales data:***  number of products sold, revenue generated, etc.
+- ***产品数据：*** 产品类型、SKU、价格、制造成本、缺陷率等。
+- ***客户数据：*** 客户人口统计、订单数量等。
+- ***承运商数据：*** 运输路线、运输方式、成本等。
+- ***销售数据：*** 售出产品数量、产生的收入等。
 
-## Tasks
+## 任务
 
-To clean the available data and prepare the data for EDA. 
+清理可用数据并为探索性数据分析（EDA）准备数据。
 
-Using Python libraries (Numpy, Matplotlib, Pandas, Plotly), we want to plot visualizations so as to answer above mentioned questions.
+使用 Python 库（Numpy、Matplotlib、Pandas、Plotly），我们希望绘制可视化图表以回答上述问题。
 
-## Checkpoints
+## 检查点
 
-The checkpoints for the assignment are as follows:
+任务的检查点如下：
 
-1. To import the libraries required for the task in jyputer notebook. 
+1. 在 Jupyter Notebook 中导入任务所需的库。
 
-2. To load the dataset and perform EDA using Pandas library.
+2. 加载数据集并使用 Pandas 库执行探索性数据分析。
   
-3. Draw a scatter plot of the price of the product vs the revenue generated along with a trendline to look for relationship if any.
+3. 绘制产品价格与产生的收入的散点图，并添加趋势线以查看是否存在关系。
 
-4. Now lets look at the number of products sold according to category by grouping the number of products sold with the product type. Further provide a fine visualization of obtained result on a pie chart. 
-5. Now lets look at the total revenue generated according to shipping carrier by grouping the revenue with the shipping carrier type. Further provide a fine visualization of obtained result on a pie chart.
+4. 通过按产品类型分组售出产品的数量，查看各类别售出产品的数量。进一步在饼图上提供所获得结果的精美可视化。
 
-6. Similarly group attributes with different columns so as to look for trends in supply of the products.
+5. 通过按运输承运商类型分组收入，查看各运输承运商产生的总收入。进一步在饼图上提供所获得结果的精美可视化。
+
+6. 类似地，将属性与不同的列分组，以查看产品供应中的趋势。
 
